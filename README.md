@@ -73,9 +73,11 @@ The final prediction was saved as `submission.csv`.
 ## How to run
 1. Open the `Time_Series_Sales_Forecasting.ipynb` in Google Colab.
 2. Change the runtime type to GPU.
-3. Upload the following files:
+3. Install libraries:
+   - `pip install -r requirements.txt`
+5. Upload the following files:
    - `train.csv`
    - `test.csv`
-4. RUn all cells from top to buttom.
-5. Upload again the `sample_submission.csv` file.
-6. The final prediction file `submission.csv` will be generated.
+6. RUn all cells from top to buttom.
+7. Upload again the `sample_submission.csv` file.
+8. The final prediction file `submission.csv` will be generated.
