@@ -20,5 +20,6 @@ Before train the model, I check the data first although already mention is clean
 - Checked missing values
 - Checked duplicated values
 - Converted the `date` column into datetime format
+  
 (Prophet needs time-based data for forecasting.)
 
